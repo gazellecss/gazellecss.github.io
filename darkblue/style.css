@@ -1226,7 +1226,7 @@ div.box.center { padding: 3px 0; margin-bottom: 10px; }
 ::-moz-placeholder { color: #888; }
 #atc_select { max-width: calc(100% - 20px) !important; }
 #qrcode img { background-color: white; padding: 10px; } /* ensures scannability */
-#reply_box > h3, #staffpm #inbox > h3 { background-color: #62768a;  border-radius: 2px; padding: 6px; margin-bottom: -1px; }
+#reply_box > h3, #staffpm #inbox > h3, #reports .thin > h3, #inbox .thin > h3 { background-color: #62768a;  border-radius: 2px; padding: 6px; margin-bottom: -1px; } /* reply headers */
 #torrents #reply_box > h3 { margin-bottom: -22px; }
 #staffpm #compose, .badge--holder, .badge--log_box { /* Anything that needs a background */
 	-webkit-border-radius: 2px;
@@ -1236,14 +1236,7 @@ div.box.center { padding: 3px 0; margin-bottom: 10px; }
 	margin-bottom: 16px;
 	padding: 1em;
 }
-img[alt="qotquiet's avatar"] {
-	display: block;
-	box-sizing: border-box; 
-	background: url(https://2.bp.blogspot.com/-e34fVuYx0XI/VJFxFIydlPI/AAAAAAAAQVM/vKwotXg0FfQ/s1600/humour-drole-insolite-grand-parent-papi-mami1.jpg) no-repeat; 
-	background-size: contain;
-	height: 120px;
-	padding-left: 150px;
-}
+
 /* RED graphs */
 .chart-text { fill: #e0e0e0; }
 .labels { fill: #999; }
