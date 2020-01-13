@@ -1236,6 +1236,10 @@ div.box.center { padding: 3px 0; margin-bottom: 10px; }
 	margin-bottom: 16px;
 	padding: 1em;
 }
+.important_text blockquote {
+  border: solid brown 1px;
+  background: black;
+}
 
 /* RED graphs */
 .chart-text { fill: #e0e0e0; }
