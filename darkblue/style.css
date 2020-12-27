@@ -86,7 +86,7 @@ h1, h3 {
 
 h2 {
 	text-align: center;
-	font-size: 20px;
+	font-size: 1.8em;
 }
 
 h1 a:hover, h2 a:hover, h3 a:hover {
@@ -223,36 +223,37 @@ ul.thin li { margin: 0 0; padding: 0; }
 }
 
 #menu {
-  position: relative;
-  top: 168px;
-  border-radius: 2px 2px 0 0;
-  overflow: hidden;
-  background-color: #292929;
+	position: relative;
+	top: 168px;
+	border-radius: 2px 2px 0 0;
+	overflow: hidden;
+	background-color: #292929;
 }
 
 #menu ul {
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -ms-flex-flow: row nowrap;
-  flex-flow: row nowrap;
-  overflow: hidden;
-  list-style: none;
-  text-transform: uppercase;
-  font-weight: bold;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	-ms-flex-flow: row nowrap;
+	flex-flow: row nowrap;
+	overflow: hidden;
+	list-style: none;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 #menu ul li {
-  -ms-flex: auto;
-  flex: auto;
-  margin: 0;
+	-ms-flex: auto;
+	flex: auto;
+	margin: 0;
+	font-size: 1.1em;
 }
 
 #menu ul a {
-  display: block;
-  line-height: 30px;
-  text-align: center;
-  white-space: nowrap;
+	display: block;
+	line-height: 30px;
+	text-align: center;
+	white-space: nowrap;
 }
 
 #menu li.active a {
@@ -491,7 +492,6 @@ ul.thin li { margin: 0 0; padding: 0; }
 	text-align: center;
 	margin: 0 auto;
 	list-style: none;
-	display: block;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -621,18 +621,26 @@ p.min_padding {
 	padding: 1em;
 }
 
+.sidebar {
+	float: right;
+	width: 290px;
+}
+
+.sidebar .box .body {
+	padding: 5px;
+}
+
 .sidebar .pad {
 	padding: 10px;
 }
 
-.sidebar .box {
-	padding-bottom: 1px;
+.sidebar img {
+	max-width: 270px;
+	width: auto;
 }
 
-#user .sidebar img {
-	max-width: 220px;
-	width: auto !important;
-	padding: 10px;
+.sidebar .box {
+	padding-bottom: 1px;
 }
 
 .vertical_space {
@@ -652,15 +660,6 @@ p.min_padding {
 .pad h3, .pad h4, .padbox h3, .padbox h4 {
 	margin-top: 0;
 	padding-top: 0;
-}
-
-.sidebar {
-	float: right;
-	width: 290px;
-}
-
-.sidebar .box .body {
-	padding: 5px;
 }
 
 .body {
@@ -963,7 +962,7 @@ blockquote {
 
 .torrentdetails div blockquote {
 	border: 1px dashed #646464;
-	width: 826px;
+	width: 876px;
 }
 
 .torrentdetails blockquote {
@@ -971,7 +970,11 @@ blockquote {
 }
 
 .torrentdetails.pad > td > blockquote { 
-	width: 826px;
+	width: 876px;
+}
+
+.torrentdetails img {
+	max-width: 740px;
 }
 
 div[id^="peers"] td span[style="color: green;"] {
@@ -1104,15 +1107,34 @@ input[type=text]:active, input[type="search"]:active, input[type="password"]:act
 
 input[disabled=disabled], select[disabled=disabled], textarea[disabled=disabled] { background: #1d1d1d; color: #62768a; }
 
-select { background: #353535; display: inline-block; margin-left: 3px; padding-right: 3px; color: #62768a; text-decoration: none; border: 0; font-family: PT Sans; }
-option { background: #353535; padding: 1px; margin: 0; color: #62768a; text-decoration: none; border: 0; font-family: PT Sans; }
+select {
+	background: #353535;
+	display: inline-block;
+	margin-left: 3px;
+	padding-right: 3px;
+	color: #62768a;
+	text-decoration: none;
+	border: 0;
+	font-family: PT Sans;
+	font-size: 1em;
+}
+
+option { 
+	background: #353535;
+	padding: 1px;
+	margin: 0; 
+	color: #62768a; 
+	text-decoration: none; 
+	border: 0; 
+	font-family: PT Sans;
+}
 
 #AddArtists {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
-/* BH5 era
+/* BH5 content
 .spellcheck {
 	margin: 10px 0;
 	font-size: 1.25em;
@@ -1273,9 +1295,18 @@ div.box.center { padding: 3px 0; margin-bottom: 10px; }
 	margin-bottom: 16px;
 	padding: 1em;
 }
+
 .important_text blockquote {
 	border: solid brown 1px;
 	background: black;
+}
+
+.history_vote_up {
+	color: #768a62;
+}
+
+.history_vote_down {
+	color: #8a6262;
 }
 
 /* Stolen bloated whutbbcode styling */
