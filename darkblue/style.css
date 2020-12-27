@@ -429,7 +429,7 @@ ul.thin li { margin: 0 0; padding: 0; }
 	display: inline-block;
 	background-repeat: no-repeat;
 	background-position: 10px center;
-	width: 150px;
+	width: 125px;
 	clear: right;
 	float: right;
 	transition: all 0.1s ease-in-out 0s;
@@ -455,6 +455,7 @@ ul.thin li { margin: 0 0; padding: 0; }
 #userinfo #userinfo_minor #nav_comments { background-image: url('images/comments.png'); }
 #userinfo #userinfo_minor #nav_posts { background-image: url('images/posts.png'); }
 #userinfo #userinfo_minor #nav_better { background-image: url('images/better.png'); }
+#userinfo #userinfo_minor #nav_logchecker { background-image: url('https://www.flaticon.com/svg/static/icons/svg/452/452131.svg'); background-size: 16px; }
 
 #userinfo #userinfo_major #nav_upload { background-image: url('images/upload.png'); background-position: 0; }
 #userinfo #userinfo_major #nav_invite { background-image: url('images/invites.png'); }
@@ -998,6 +999,10 @@ blockquote {
 
 .torrentdetails blockquote {
 	word-break: break-all;
+}
+
+.torrentdetails blockquote[style="width:540px"] {
+	width: 875px !important;
 }
 
 .torrentdetails.pad > td > blockquote { 
