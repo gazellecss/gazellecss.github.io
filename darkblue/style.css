@@ -34,7 +34,7 @@ body {
 }
 
 .forum_post pre {
-	max-width: 660px;
+	max-width: 860px;
 	max-height: 500px;
 	overflow: auto;
 }
@@ -1249,6 +1249,10 @@ form textarea, form input {
 	color: #d1d1d1;
 }
 
+.forum_post td img {
+	max-width: 875px;
+}
+
 #staffnotes {
 	width: 100%;
 	color: #a5a5a5;
@@ -1280,7 +1284,7 @@ tr.colhead_dark td[colspan="2"], tr.colhead>td, tr.colhead_dark>td  { background
 .noty_buttons { border: none !important; background-color: #333 !important; }
 .noty_text { font-size: 1.1em; }
 #content #tags p a, #content #labels p a, #content #artists p a { margin-left: 10px; color: #b5b5b5; }
-#purchase_history table, #torrent_details table { width: 100%; }
+#purchase_history table, #torrent_details table, #artist td.big_info { width: 100%; }
 td.edition_info a { color: #899d9e; }
 td.edition_info a:hover { color: #a0b0b1; }
 code { color: grey; }
