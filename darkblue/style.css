@@ -1186,10 +1186,6 @@ tr.torrent .bookmark a:before, tr.torrent .bookmark a:after {
 	color: #646054;
 }
 
-#requests .forum_post textarea {
-	max-width: 409px;
-}
-
 .field_div {
 	margin-bottom: 10px;
 }
@@ -1351,7 +1347,7 @@ ul.stats.nobullet li br {
 	width: 65%;
 }
 
-	ast_edited {
+	last_edited {
 	border-top: 1px solid rgba(255, 255, 255, 0.25);
 	padding: 5px 5px 0px 0px;
 	opacity: 0.75;
