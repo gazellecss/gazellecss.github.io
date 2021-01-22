@@ -137,7 +137,7 @@ img {
 .layout.recent tr:nth-of-type(2) td img {
 	width: unset;
 	max-height: 160px;
-	maxw-width: 185px;
+	max-width: 185px;
 }
 
 ul.collage_images {
@@ -499,7 +499,10 @@ ul.thin li { margin: 0 0; padding: 0; }
 
 #userform.edit_form #sortable { width: 100%; columns: 3; }
 #userform.edit_form input[type="text"], #userform.edit_form input[type="email"], #userform.edit_form input[type="password"], #userform.edit_form textarea { width: 95% }
-#userform.edit_form input[id="pushkey"] { width: calc(95% - 40px)}
+#userform.edit_form input[id="pushkey"] { width: 50% }
+#userform.edit_form input#new_api_key_ { width: 45%; }
+#api_key_settings input { margin-right: 20px; } 
+/* #userform.edit_form input#new_api_key_name, #userform.edit_form input#new_api_key_ { width: 40%;  } */
 
 #searchbars {
 	position: fixed;
@@ -901,7 +904,7 @@ tr.peer_list td {
 
 tr#edition_expand { height: 60px !important; vertical-align: bottom }
 tr#edition_title { height: 60px !important; vertical-align: top }
-tr#catalogue_number_year > td:nth-child(3), tr#catalogue_number_year > td:nth-child(4), #edition_title > td:nth-child(3), #edition_title > td:nth-child(4) { position: relative; top: 30px; right: 480px; }
+tr#catalogue_number_year > td:nth-child(3), tr#catalogue_number_year > td:nth-child(4), #edition_title > td:nth-child(3), #edition_title > td:nth-child(4) { position: relative; top: 30px; right: 500px; }
 td.ft_remasteryear { display: inline-block; }
 
 .sign.snatches img, .sign.seeders img, .sign.leechers img { 
@@ -910,6 +913,7 @@ td.ft_remasteryear { display: inline-block; }
 	padding-right: 15px;
 	box-sizing: border-box;
 }
+
 .sign.snatches img { background: url('https://redacted.ch/static/styles/postmod/images/snatched.png') no-repeat 0 0 transparent; }
 .sign.seeders img { background: url('https://redacted.ch/static/styles/postmod/images/seeders.png') no-repeat 0 0 transparent; }
 .sign.leechers img { background: url('https://redacted.ch/static/styles/postmod/images/leechers.png') no-repeat 0 0 transparent; }
@@ -1355,10 +1359,9 @@ ul.stats.nobullet li br {
 	width: 65%;
 }
 
-	.last_edited {
-	border-top: 1px solid rgba(255, 255, 255, 0.25);
+.last_edited {
+	border-top: 1px solid rgba(255, 255, 255, 0.05);
 	padding: 5px 5px 0px 0px;
-	opacity: 0.75;
 	text-align: right;
 	display: block;
 	font-size: 0.9em;
