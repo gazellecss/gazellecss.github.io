@@ -677,7 +677,7 @@ p.min_padding {
 }
 
 .sidebar img {
-	max-width: 270px;
+	max-width: 100% !important;
 	width: auto;
 }
 
