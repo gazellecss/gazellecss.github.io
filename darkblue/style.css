@@ -1367,6 +1367,12 @@ ul.stats.nobullet li br {
 	font-size: 0.9em;
 }
 
+#badgesdiv .profile_badge {
+	  flex: 1 0 auto;
+	  justify-content: center;
+	  display: flex;
+}
+
 /* Stolen bloated whutbbcode styling */
 .wbbcode.wbbimg,
 .wbbcode.wbbimgless {
