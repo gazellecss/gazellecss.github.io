@@ -506,7 +506,6 @@ ul.thin li { margin: 0 0; padding: 0; }
 
 #searchbars {
 	position: fixed;
-	left: -150px;
 	top: 0;
 	right: 0;
 	width: 100%;
@@ -530,6 +529,7 @@ ul.thin li { margin: 0 0; padding: 0; }
 
 #searchbars ul {
 	position: relative;
+	left: -150px;
 	width: 994px;
 	text-align: center;
 	margin: 0 auto;
