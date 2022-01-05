@@ -534,7 +534,7 @@ ul.collage_images li:before {
   margin-right: auto;
 }
 
-#forums #quickreplytext br, #torrents .edit_form br, .sidebar .box.box_addtag br, #collage form#quickpostform.send_form br, #quickreplytext br, .add_torrent_container .add_form br, .user_title br, .main_column div#coverart + br, #upload .thin > p br, #upload #content > .box.pad + br, #rules .thin > .box.pad + br, #rules .header + br, #rules form + br, .main_column .linkbox + br, #quickpost h3 + input + br, #threadpoll.pad br, #staffpm .thin > br, #staff .box.pad br, #staff .thin > br, #blog div + br, #staffpm #messageform.manage_form br, #bookmarks .group.discog td > span > br, .sticky_post_label, .send_form > .box.pad > br, #recommendation_status br {
+#forums #quickreplytext br, .sidebar .box.box_addtag br, #collage form#quickpostform.send_form br, #quickreplytext br, .add_torrent_container .add_form br, .user_title br, .main_column div#coverart + br, #upload .thin > p br, #upload #content > .box.pad + br, #rules .thin > .box.pad + br, #rules .header + br, #rules form + br, .main_column .linkbox + br, #quickpost h3 + input + br, #threadpoll.pad br, #staffpm .thin > br, #staff .box.pad br, #staff .thin > br, #blog div + br, #staffpm #messageform.manage_form br, #bookmarks .group.discog td > span > br, .sticky_post_label, .send_form > .box.pad > br, #recommendation_status br {
   display: none;
 }
 
