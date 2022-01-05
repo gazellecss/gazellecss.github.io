@@ -2657,7 +2657,6 @@ span[style*="color: green"], #log_table .log_upload {
 }
 
 /* Changelog.php tags */
-/* Needs staff update */
 .changelog.tags {
   padding: 8px 1em 0 1em;
   font-size: 14px;
@@ -2787,6 +2786,11 @@ div.box.comment:after {
 
 #add_covers_form input[type="text"] {
   width: calc(100% - 22px);
+}
+
+.go_to_top {
+  display: inline-block;
+  min-width: 8px;
 }
   
 /*********************** USERSCRIPTS ***********************/
