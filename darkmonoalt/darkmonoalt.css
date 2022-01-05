@@ -1019,11 +1019,6 @@ ul.collage_images li:before {
   box-shadow: none;
 }
 
-#torrents .edit_form input[value="Edit"] {
-  margin-left: 468px;
-  width: 44px;
-}
-
 #torrents .edit_form .layout.border td.label {
   width: 100px;
   text-align: right;
@@ -1154,7 +1149,7 @@ ul.collage_images li:before {
   width: 400px;
 }
 
-#user .layout.recent tr:nth-child(n+2) td, .search_form tr#edition_expand td.center, .search_form tr#edition_expand td.center, .breadcrumbs, #logchecker table.border td[colspan="2"], .votes_info_td, .drag_drop_save, #torrent_table td.small, .preview_submit {
+#user .layout.recent tr:nth-child(n+2) td, .search_form tr#edition_expand td.center, .search_form tr#edition_expand td.center, .breadcrumbs, #logchecker table.border td[colspan="2"], .votes_info_td, .drag_drop_save, #torrent_table td.small, .preview_submit, #torrents .edit_form[style=""]/* non-wiki torrent group */ {
   text-align: center;
 }
 
