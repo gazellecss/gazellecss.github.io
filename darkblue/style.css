@@ -1375,6 +1375,13 @@ ul.stats.nobullet li br {
 	  display: flex;
 }
 
+/* upload failure warnings */
+#upload .thin p[style="color: red; text-align: center;"] { 
+  padding: 10px;
+  background-color: #1d1d1d;
+  border: 1px solid brown;
+}
+
 /* Stolen bloated whutbbcode styling */
 .wbbcode.wbbimg,
 .wbbcode.wbbimgless {
