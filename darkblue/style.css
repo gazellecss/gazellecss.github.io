@@ -1212,6 +1212,7 @@ tr.torrent .bookmark a:before, tr.torrent .bookmark a:after {
 	background: #303030;
 	color: #d1d1d1 !important;
 	border: none;
+	width: unset !important;
 }
 
 .autocomplete-selected {
