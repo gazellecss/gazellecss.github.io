@@ -132,7 +132,8 @@ img {
 }
 
 .layout.recent tr:nth-of-type(2) td {
-  min-width: 0;
+        min-width: 0;
+        max-width: 185px;
 }
 
 .layout.recent tr:nth-of-type(2) td img {
