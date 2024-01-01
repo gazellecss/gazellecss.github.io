@@ -1036,10 +1036,6 @@ div[id^="peers"] td span[style="color: red;"] {
   color: #8a6262 !important;
 }
 
-div[id^="peers"] tr td:nth-of-type(3) {
-  display: none;
-}
-
 tr.unreadpm {
 	background-color: #353535;
 }
