@@ -559,10 +559,11 @@ ul.thin li { margin: 0 0; padding: 0; }
 #searchbars ul li {
 	position: relative;
 	display: inline;
-	float: left;
 	margin: 0;
 	padding-right: 10px;
 	list-style: none;
+	flax: 1 1 0;
+	min-width: 0px;
 }
 
 #searchbars ul li ul {
