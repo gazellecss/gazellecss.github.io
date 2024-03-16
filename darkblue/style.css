@@ -109,6 +109,10 @@ input {
 	color: #b5b5b5;
 }
 
+input[name="artistmanager_box"] {
+	margin-right: 5px;
+}
+
 textarea {
 	padding: 3px;
 	background: #0f0f0f;
