@@ -7,6 +7,7 @@
 	margin: 0;
 }
 .tl_notice { color: #8A5150 !important } /* trumpable */
+.tl_notice[title="Seeding!"] { color: #B7FA73 !important; }
 .invalid, .warning, .error, .tl_reported, .torrent_info .new, .important_text, a[title="Delete Alias"], .remove a, a[onclick^="remove_selection"], a[class^="tooltip small_clearvote vote_clear_"] { color: brown !important }
 .tl_approved { color: #8a6276 !important }
 .tl_free { color: #768a62 !important }
