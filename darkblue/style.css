@@ -18,11 +18,12 @@
 .remove_artist { float: right }
 #AddArtists input, #AddArtists select { width: 43% }
 #index .sidebar .box:first-of-type .center.pad:nth-of-type(4) { padding: 5px }
-.snatched_group, .snatched_torrent {
+.snatched_group, .snatched_torrent, .seeding_group {
   color: #6a6a6a;
   background-color: rgba(30, 30, 30, 0.5);
   border-left: 3px solid #4b4b4b;
 }
+.seeding_group { box-shadow: inset 3px 0px #B7FA73 }
 
 html {
 	width: 100%;
