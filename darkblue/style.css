@@ -834,7 +834,7 @@ tr.peer_list td {
 	padding: 2px 0 2px 2px;
 }
 
-.error_message {
+.error_message, #yearwarning {
 	border: 1px solid #666;
 	padding: 3px 0;
 	background-color: #af2525;
