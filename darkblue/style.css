@@ -470,7 +470,7 @@ ul.thin li { margin: 0 0; padding: 0; }
 #userinfo #userinfo_minor #nav_comments { background-image: url('images/comments.png'); }
 #userinfo #userinfo_minor #nav_posts { background-image: url('images/posts.png'); }
 #userinfo #userinfo_minor #nav_better { background-image: url('images/better.png'); }
-#userinfo #userinfo_minor #nav_logchecker { background-image: url('https://www.flaticon.com/svg/static/icons/svg/452/452131.svg'); background-size: 16px; }
+#userinfo #userinfo_minor #nav_logchecker { background-image: url('https://cdn-icons-png.flaticon.com/512/452/452131.png'); background-size: 16px; }
 
 #userinfo #userinfo_major #nav_upload { background-image: url('images/upload.png'); background-position: 0; }
 #userinfo #userinfo_major #nav_invite { background-image: url('images/invites.png'); }
