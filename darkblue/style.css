@@ -924,9 +924,9 @@ td.ft_remasteryear { display: inline-block; }
 	box-sizing: border-box;
 }
 
-.sign.snatches img { background: url('https://redacted.ch/static/styles/postmod/images/snatched.png') no-repeat 0 0 transparent; }
-.sign.seeders img { background: url('https://redacted.ch/static/styles/postmod/images/seeders.png') no-repeat 0 0 transparent; }
-.sign.leechers img { background: url('https://redacted.ch/static/styles/postmod/images/leechers.png') no-repeat 0 0 transparent; }
+.sign.snatches img { background: url('https://redacted.sh/static/styles/postmod/images/snatched.png') no-repeat 0 0 transparent; }
+.sign.seeders img { background: url('https://redacted.sh/static/styles/postmod/images/seeders.png') no-repeat 0 0 transparent; }
+.sign.leechers img { background: url('https://redacted.sh/static/styles/postmod/images/leechers.png') no-repeat 0 0 transparent; }
 
 .torrent_table tr {
 	vertical-align: top;
