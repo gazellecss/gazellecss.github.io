@@ -369,7 +369,7 @@ h3#irc + .box.pad ul li:last-child, h3#general + .box.pad ul li:last-child {
   padding: 0% 5%;
 }
 
-#coverart.box ul.collage_images img:hover, .group_image.float_left.clear img:hover, .gm_albumartdisplay img:hover, #collage_table td img:hover, #userhistory .torrent_table.grouped.artwork tr.group.discog td[style="width: 60px; padding: 0;"] img:hover, #user .layout.recent a > img:hover {
+#coverart.box ul.collage_images img:hover, .group_image.float_left.clear img:hover, #collage_table td img:hover, #userhistory .torrent_table.grouped.artwork tr.group.discog td[style="width: 60px; padding: 0;"] img:hover, #user .layout.recent a > img:hover {
   border: 2px solid #528BA3 !important;
   opacity: 1 !important;
   transition: opacity .25s ease-in-out;
@@ -2092,9 +2092,6 @@ a.brackets.tooltip.vote_tag_up:before, a.brackets.tooltip.vote_tag_up:after, a.b
   border: 2px solid #528BA3 !important;
 }
 */
-.sticky_post .body {
-  background: url("https://redacted.ch/static/styles/dark_mono_v2/img/sticky.png") no-repeat bottom right !important;
-}
 
 .tags {
   font-size: 11px;
@@ -2201,21 +2198,7 @@ a.brackets.tooltip.vote_tag_up:before, a.brackets.tooltip.vote_tag_up:after, a.b
   border: 2px solid #3b3b3b !important;
 }
 
-.gm_albumartdisplay {
-  width: 90px !important;
-  height: 90px !important;
-}
-
-.gm_albumartdisplay img {
-  width: 75px !important;
-  height: 75px !important;
-}
-
-.gm_albumartdisplay_loading {
-  background: transparent url("https://redacted.ch/static/styles/dark_mono_v2/img/progress.gif") no-repeat center center !important;
-}
-
-.gm_albumartdisplay img, #userhistory .torrent_table.grouped.artwork tr.group.discog td[style="width: 60px; padding: 0;"] img, #user .layout.recent a > img {
+#userhistory .torrent_table.grouped.artwork tr.group.discog td[style="width: 60px; padding: 0;"] img, #user .layout.recent a > img {
   margin: 5px;
   border: 2px solid #ccc !important;
 }
@@ -2327,21 +2310,21 @@ a.brackets.tooltip.vote_tag_up:before, a.brackets.tooltip.vote_tag_up:after, a.b
 }
 
 img[alt="Snatches"] {
-  background: url('https://redacted.ch/static/styles/postmod/images/snatched.png') no-repeat 0 0 transparent;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAALtJREFUeNpi/P//PwPZAKSZCIwOAsCWoilSIEJzAkycCckRBUB8AYgVCDhWAd3ZAkD8AYgP4LEZZOMGKFsB2dkJUEEHHJoDkLwFAgXImhuggsQE3gMgXoDu54dERtADmL+RNcsDsQABjSB5eyA+gBxgBlBnNxBwcgNy2CBLbECPRzQMC1R4jCBLgqLrAlTBBmgIO0DpBVDxC1B1DNhSmADUaR+wJMkJyBpBmBFPxnBAYh/ApoCRklwFEGAA2t3I9MI/iX0AAAAASUVORK5CYII=') no-repeat 0 0 transparent;
   height: 14px;
   width: 0;
   padding-right: 15px;
   box-sizing: border-box;
 }
 img[alt="Seeders"] {
- background: url('https://redacted.ch/static/styles/postmod/images/seeders.png') no-repeat 0 0 transparent;
+ background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAPCAYAAAAyPTUwAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAG5JREFUeNpi+P//PwMaFgXijUDMhi6HrpAZiPf+h4AuQorr/qMCP1yKnYD4D5rit0Ash65YAoif/8cOjsHcj+5OXKALprjxP3HAgxFIGDAwMDADMYiew4AJTKD0F2QP2uAwEa6GiYEEMOwVAwQYAG5JNl0hDoQ1AAAAAElFTkSuQmCC') no-repeat 0 0 transparent;
   height: 15px;
   width: 0;
   padding-right: 15px;
   box-sizing: border-box;
 }
 img[alt="Leechers"] {
-  background: url('https://redacted.ch/static/styles/postmod/images/leechers.png') no-repeat 0 0 transparent;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAPCAYAAAAyPTUwAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAHRJREFUeNpi+P//PwMU2/zHDmDyDEwMJIBhr5gFiA2AmBmI1XGoMYbSX0Dh1/KfOOABUswMxHsJKOwCRQosdiSA+BUOhYehBsIVg7AHEP9BUwgyQA6mBlkxNvd7IMujK2aGWgsC7WhyGIph7l8HcycyBggwACnWMsBs+XolAAAAAElFTkSuQmCC') no-repeat 0 0 transparent;
   height: 15px;
   width: 0;
   padding-right: 15px;
