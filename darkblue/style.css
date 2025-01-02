@@ -504,6 +504,7 @@ ul.thin li { margin: 0 0; padding: 0; }
 #fl_tokens { top: 59px; }
 .my_demBuffer, #userinfo_stats #stats_buffer { position: relative; top: -36px; right: 10px; width: 202px; padding: 5px 10px; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; background-color: rgba(153, 153, 153, 0.4); }
 #stats_buffer { top: 59px; }
+#stats_seedcount { position: relative; top: 32px; right: -28px; }
 
 #userform.edit_form #sortable { width: 100%; columns: 3; }
 #userform.edit_form input[type="text"], #userform.edit_form input[type="email"], #userform.edit_form input[type="password"], #userform.edit_form textarea { width: 95% }
