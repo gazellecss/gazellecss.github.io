@@ -1304,6 +1304,7 @@ tr.colhead_dark td[colspan="2"], tr.colhead>td, tr.colhead_dark>td  { background
 td.edition_info a { color: #899d9e; }
 td.edition_info a:hover { color: #a0b0b1; }
 code { color: grey; }
+a code {color: white; }
 #paster { background: #0f0f0f; display: inline-block; padding: 3px 6px 4px; color: #62768a; text-decoration: none; border: none; cursor: pointer; }
 button { background: #353535; display: inline-block; margin-bottom: 3px; padding: 0 4px 1px 3px; color: #62768a; text-decoration: none; border: none; cursor: pointer; }
 .box_tags .brackets:before, .box_tags .brackets:after { content: '\00a0' }
