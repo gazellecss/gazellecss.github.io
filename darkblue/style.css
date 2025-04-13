@@ -1337,6 +1337,7 @@ div.box.center { padding: 3px 0; margin-bottom: 10px; }
 #torrents #reply_box > h3 { margin-bottom: -22px; }
 #staffpm .message_table td {min-width: 90px;}
 #staffpm .message_table td:nth-of-type(5) {min-width: unset;}
+.number_column .matched_files { text-align: left; } /* takeout */
 
 /* Anything that needs a background */
 #staffpm #compose, .badge--holder, .badge--log_box {
