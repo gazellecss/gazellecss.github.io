@@ -9,5 +9,7 @@
 
 - [mono_vFF_light](https://gazellecss.github.io/Mono%20vFF/mono_vFF_light.css)
 
+- [red-os-color-scheme](https://gazellecss.github.io/red-os-color-scheme/red-os-color-scheme.css)
+
 ## bib stylesheets
 - [dark newyorker](https://gazellecss.github.io/bib/darknewyorker.css)
