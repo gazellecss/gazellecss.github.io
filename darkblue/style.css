@@ -23,7 +23,7 @@
   background-color: rgba(30, 30, 30, 0.5);
   border-left: 3px solid #4b4b4b;
 }
-.seeding_group { box-shadow: inset 3px 0px #B7FA73 }
+.group.discog.seeding_group, .torrent_row.seeding_torrent { box-shadow: inset 3px 0px #B7FA73; }
 
 html {
 	width: 100%;
