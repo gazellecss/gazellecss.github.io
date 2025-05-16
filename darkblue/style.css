@@ -1231,7 +1231,7 @@ tr.torrent .bookmark a:before, tr.torrent .bookmark a:after {
 }
 
 div[class~=tooltipster-base] {
-	background-color: #eaeaea;
+	background-color: transparent;
 	border: none;
 	color: #444;
 }
