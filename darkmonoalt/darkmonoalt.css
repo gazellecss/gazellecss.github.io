@@ -1845,7 +1845,7 @@ li.graph .center_poll {
   font-weight: bold;
 }
 
-.ft_artistname input, .ft_groupname input, #search_terms input, .ft_recordlabel input, .ft_filelist input, .ft_remasterrecordlabel input, #tagfilter input[type="text"], input#searchbox, input#username, #upload .thin > p input[type="text"], #user .send_form .layout.border input[name="email"], .search_form .layout input[size="60"], #wiki .thin > div > form > .layout.border input[size="70"] {
+.ft_artistname input, .ft_groupname input, #search_terms input:not(#include_descriptions_box), .ft_recordlabel input, .ft_filelist input, .ft_remasterrecordlabel input, #tagfilter input[type="text"], input#searchbox, input#username, #upload .thin > p input[type="text"], #user .send_form .layout.border input[name="email"], .search_form .layout input[size="60"], #wiki .thin > div > form > .layout.border input[size="70"] {
   width: 520px;
 }
 
