@@ -1853,7 +1853,7 @@ li.graph .center_poll {
   width: 228px;
 }
 
-.ft_year input, .ft_remasteryear input, #year_tr input, #edition_year input {
+.ft_year input.inputtext, .ft_remasteryear input, #year_tr input, #edition_year input {
   width: 75px;
 }
 
