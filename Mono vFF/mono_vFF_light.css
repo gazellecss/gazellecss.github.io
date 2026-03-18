@@ -1632,20 +1632,19 @@ select:focus, select:active {
 
 #noty_bottomRight_layout_container li {
   background: #444 !important;
-  border: 1px solid #4f4f4f !important;
+  border: 1px solid #aeaeae !important;
   color: #fafafa;
 }
 
 .noty_bar {
-  color: #dedede;
-  background-color: #3d3d3d;
+  color: #565656;
+  background-color: #e3e4e6;
 }
 
 .noty_buttons {
-  background-color: #444 !important;
-  border: 1px solid #4f4f4f !important;
+  background-color: auto;
 }
 
 .noty_buttons a {
-  color: #b6cce1;
+  color: #3b7ab0;
 }
