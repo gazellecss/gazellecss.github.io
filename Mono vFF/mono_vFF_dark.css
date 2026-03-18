@@ -1717,3 +1717,23 @@ select:focus, select:active {
     height: 15px;
     width: auto;
 }
+
+#noty_bottomRight_layout_container li {
+  background: #444 !important;
+  border: 1px solid #4f4f4f !important;
+  color: #fafafa;
+}
+
+.noty_bar {
+  color: #dedede;
+  background-color: #3d3d3d;
+}
+
+.noty_buttons {
+  background-color: #444 !important;
+  border: 1px solid #4f4f4f !important;
+}
+
+.noty_buttons a {
+  color: #b6cce1;
+}
